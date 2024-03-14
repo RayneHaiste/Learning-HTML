@@ -28,9 +28,9 @@
     <style>
         * {
             box-sizing: border-box;
-            //font-size: 2vw;
+            font-size: 2vw;
         }
-        div { border: thin dotted red; }
+        div { //border: thin dotted red; }
 
         .header {
             border: 1px solid green;
@@ -60,6 +60,7 @@
         }
 
         .footer {
+            width: 100%;
             padding: 15px;
             border: 1px solid rgb(19, 0, 128);
         }
@@ -79,13 +80,32 @@
         <p>Paragraph Tag, any writing</p>
     </header>
     <nav class="nav">
-        <h3>Navigation H-Tags, in h3</h3>
-        <h2>H2: largest h-tag</h2>
-        <h4>H4: text</h4>
-        <h5>H5: text</h5>
-        <h6>H6: text</h6>
+        <h3 style="text-align: center;">Navigation</h3>
+        <h2>
+            <li><a href="https://raynehaiste.github.io/Learning-HTML/"> Home Page </a> </li>
+        </h2>
+       
+        <h3>
+            <li><a href="file://fs-052/studuser$/Gr10/r.haiste/My%20Documents/GitHub/Learning-HTML/Experiments/experiment%20H%20P%20tags.html"> 
+                Experiment Page </a> </li>
+        </h3>
+        <h4>
+            <li><a href="file://fs-052/studuser$/Gr10/r.haiste/My%20Documents/GitHub/Learning-HTML/childpages/MetaData.html"> 
+                Meta Data </a> </li>
+        </h4>
+        <h5>
+            <li><a href="file://fs-052/studuser$/Gr10/r.haiste/My%20Documents/GitHub/Learning-HTML/childpages/Childpage.html"> 
+               Child Page</a> </li>
+        </h5>
+        <h6>
+            <li><a href="file://fs-052/studuser$/Gr10/r.haiste/My%20Documents/GitHub/Learning-HTML/childpages/images.html"> 
+                Images Page</a> </li>
+
+
+        </h6>
         <p>Paragraph Tag</p>
         <a>Hyperlink, text only, in a-tag</a>
+        <ul style="list-style-type:lower-alpha"></ul>
     </nav>
     <main class="main">
         <h1>MAIN, H-Tags, in h1</h1>
@@ -110,7 +130,7 @@
                     <a>Hyperlink, text only, in a-tag</a>
                 </article>
          </section>
-        <article class="main">
+        <article class="footer">
             <h2>Article H-Tags, in h2</h2>
             <h3>SubHeadings usually stop at H3, in h3</h3>
             <p>Writing Only in P-Tags</p>
@@ -156,7 +176,7 @@
         <!-- Date Accessed 20240214-->
     </blockquote>
     <p>
-        <strong>"Getting information off the Internet is like taking a drink from a firehose."</strong>
+        <strong style="text-align: center;">"Getting information off the Internet is like taking a drink from a firehose."</strong>
         <em>- Mitch Kapor</em>
     </p>
     <p>&copy Rayne Haiste, powered by RayneHaiste in GitHub</p>
